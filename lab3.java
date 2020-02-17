@@ -12,6 +12,9 @@ class Point implements Graph {
         this.coords.x = x;
         this.coords.y = y;
     }
+    public void draw() {
+        System.out.println("Точка: x = " + this.coords.x + ", y = " + this.coords.y);
+    }
 
     private Coords coords;
  }
