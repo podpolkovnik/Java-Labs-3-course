@@ -1,5 +1,5 @@
 interface Graph {
-
+    public void draw();
 }
 
 class Point implements Graph {
