@@ -54,6 +54,9 @@ class Background implements Graph {
     public String getColor() {
         return this.color;
     }
+    public void setColor(String color) {
+        this.color = color;
+    }
 
     private String color;
     private String texture;
