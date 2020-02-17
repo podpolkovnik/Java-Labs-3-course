@@ -35,7 +35,9 @@ class Point implements Graph {
  }
 
 class Background implements Graph {
-
+    public void draw() {
+        System.out.println();
+    }
 }
 
 class Circle extends Point {
