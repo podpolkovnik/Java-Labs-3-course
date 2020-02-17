@@ -1,10 +1,24 @@
+class Coords {
+    public float getX() {
+        return this.x;
+    }
+    public float getY() {
+        return this.y;
+    }
+
+    private float x;
+    private float y;
+}
+
 interface Graph {
     public void draw();
 }
 
 class Point implements Graph {
+    public void moveTo(float x, float y) {
 
-}
+    }
+ }
 
 class Background implements Graph {
 
