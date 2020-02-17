@@ -44,7 +44,9 @@ class Background implements Graph {
 }
 
 class Circle extends Point {
-
+    public void draw() {
+        System.out.println("Круг: x = " + this.getCoords().x + ", y = " + this.getCoords().y);
+    }
 }
 
 class Rectangle extends Point {
