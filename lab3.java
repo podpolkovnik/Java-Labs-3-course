@@ -49,7 +49,7 @@ class Background implements Graph {
         this.texture = "none";
     }
     public void draw() {
-        System.out.println();
+        System.out.println("Цвет: " + this.color + ", текстура: " + this.texture);
     }
     public String getColor() {
         return this.color;
@@ -88,6 +88,6 @@ class Ellipse extends Circle {
 
 class Main {
     public static void main(String[] args) {
-        
+
     }
 }
