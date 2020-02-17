@@ -19,5 +19,11 @@ class Rectangle extends Point {
 }
 
 class Ellipse extends Circle {
-    
+
+}
+
+class Main {
+    public static void main(String[] args) {
+        
+    }
 }
