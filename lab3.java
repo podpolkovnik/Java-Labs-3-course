@@ -1,12 +1,12 @@
-class Graph {
+interface Graph {
 
 }
 
-class Point extends Graph {
+class Point implements Graph {
 
 }
 
-class Background extends Graph {
+class Background implements Graph {
 
 }
 
