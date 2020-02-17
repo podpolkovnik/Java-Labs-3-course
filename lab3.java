@@ -50,7 +50,9 @@ class Circle extends Point {
 }
 
 class Rectangle extends Point {
-
+    public void draw() {
+        System.out.println("Прямоугольник: x = " + this.getCoords().x + ", y = " + this.getCoords().y);
+    }
 }
 
 class Ellipse extends Circle {
