@@ -29,6 +29,9 @@ class Point implements Graph {
     public String[] getColor() {
         return this.color;
     }
+    public Coords getCoords() {
+        return coords;
+    }
 
     private String[] color;
     private Coords coords;
