@@ -1,3 +1,5 @@
+import java.math.BigDecimal;
+
 class Coords {
     public Coords(float x, float y) {
         this.x = x;
@@ -42,9 +44,16 @@ class Point implements Graph {
  }
 
 class Background implements Graph {
+    public Background() {
+        this.color = "white";
+        this.texture = "none";
+    }
     public void draw() {
         System.out.println();
     }
+
+    private String color;
+    private String texture;
 }
 
 class Circle extends Point {
