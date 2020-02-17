@@ -26,7 +26,11 @@ class Point implements Graph {
     public void draw() {
         System.out.println("Точка: x = " + this.coords.x + ", y = " + this.coords.y);
     }
+    public String[] getColor() {
+        return this.color;
+    }
 
+    private String[] color;
     private Coords coords;
  }
 
