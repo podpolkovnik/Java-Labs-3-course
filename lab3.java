@@ -14,6 +14,7 @@ interface Graph {
 class Point implements Graph {
     public Point() {
         this.coords = new Coords(0, 0);
+        this.color = "white";
     }
     public void moveTo(float x, float y) {
         this.coords.x = x;
@@ -26,14 +27,17 @@ class Point implements Graph {
     public void draw() {
         System.out.println("Точка: x = " + this.coords.x + ", y = " + this.coords.y);
     }
-    public String[] getColor() {
+    public String getColor() {
         return this.color;
     }
     public Coords getCoords() {
         return coords;
     }
+    public void setColor(String color) {
+        this.color = color;
+    }
 
-    private String[] color;
+    private String color;
     private Coords coords;
  }
 
