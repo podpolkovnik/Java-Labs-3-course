@@ -7,11 +7,11 @@ class Coords {
     public float y;
 }
 
-interface Graph {
-    public void draw();
+abstract class Graph {
+    public abstract void draw();
 }
 
-class Point implements Graph {
+class Point extends Graph {
     public Point() {
         this.coords = new Coords(0, 0);
         this.color = "white";
@@ -41,7 +41,7 @@ class Point implements Graph {
     private Coords coords;
  }
 
-class Background implements Graph {
+class Background extends Graph {
     public Background() {
         this.color = "white";
         this.texture = "none";
