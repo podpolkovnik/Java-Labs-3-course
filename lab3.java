@@ -1,5 +1,3 @@
-import java.math.BigDecimal;
-
 class Coords {
     public Coords(float x, float y) {
         this.x = x;
@@ -88,6 +86,13 @@ class Ellipse extends Circle {
 
 class Main {
     public static void main(String[] args) {
+        Background back = new Background();
+        back.setColor("red");
+        back.setTexture("steel");
+        back.draw();
 
+        Point rectangle = new Rectangle();
+        rectangle.moveTo(500, 123);
+        rectangle.draw();
     }
 }
