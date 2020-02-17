@@ -56,7 +56,9 @@ class Rectangle extends Point {
 }
 
 class Ellipse extends Circle {
-
+    public void draw() {
+        System.out.println("Эллипс: x = " + this.getCoords().x + ", y = " + this.getCoords().y);
+    }
 }
 
 class Main {
