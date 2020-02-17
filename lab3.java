@@ -1,4 +1,8 @@
 class Coords {
+    public Coords(float x, float y) {
+        this.x = x;
+        this.y = y;
+    }
     public float x;
     public float y;
 }
@@ -8,6 +12,9 @@ interface Graph {
 }
 
 class Point implements Graph {
+    public Point() {
+        this.coords = new Coords(0, 0);
+    }
     public void moveTo(float x, float y) {
         this.coords.x = x;
         this.coords.y = y;
