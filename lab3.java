@@ -1,13 +1,6 @@
 class Coords {
-    public float getX() {
-        return this.x;
-    }
-    public float getY() {
-        return this.y;
-    }
-
-    private float x;
-    private float y;
+    public float x;
+    public float y;
 }
 
 interface Graph {
@@ -16,8 +9,11 @@ interface Graph {
 
 class Point implements Graph {
     public void moveTo(float x, float y) {
-
+        this.coords.x = x;
+        this.coords.y = y;
     }
+
+    private Coords coords;
  }
 
 class Background implements Graph {
