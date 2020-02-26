@@ -1,3 +1,5 @@
+package lab2;
+
 class Calendar2 {
     public static String[] getWeekDays(int shift) {
         String[] weekdays = {
