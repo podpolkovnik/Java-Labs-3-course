@@ -1,4 +1,8 @@
+<<<<<<< HEAD:lab2/lab2.java
 package lab2;
+=======
+package lab2;
+>>>>>>> b4cfee35edd09862f3a93b87cc5b132ddc0b9328:lab2.java
 
 class Calendar2 {
     public static String[] getWeekDays(int shift) {
