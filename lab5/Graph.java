@@ -1,5 +1,5 @@
 package lab5;
 
-public abstract class Graph {
+public interface Graph {
     abstract public void draw();
 }
