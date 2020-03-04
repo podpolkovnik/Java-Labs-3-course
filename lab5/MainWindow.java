@@ -7,9 +7,9 @@ public class MainWindow implements Movable {
     public double getY() {
         return this.y;
     }
-    public void moveTo(double dx, double dy) {
-        this.x += dx;
-        this.y += dy;
+    public void moveTo(double x, double y) {
+        this.x = x;
+        this.y = y;
     }
 
     private double x, y;
