@@ -1,5 +1,5 @@
 package lab5;
 
-public class MainWindow {
+public class MainWindow implements Movable {
     
 }
