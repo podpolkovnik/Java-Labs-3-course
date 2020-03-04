@@ -1,11 +1,21 @@
 package lab5;
 
-public class Point implements Graph {
+public class Point implements Graph, Movable {
     protected double x, y;
     private String color = "none";
-    @Override public void draw() {
+    @Override 
+    public void draw() {
         System.out.println("Точка: x = " + x +  ", y = " + y);
     }
+    @Override 
+    public double getX() {
+        return x;
+    }
+    @Override 
+    public double getY() {
+        return y;
+    }
+    @Override
     public void moveTo(double x, double y) {
         this.x = x;
         this.y = y;
