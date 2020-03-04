@@ -1,6 +1,6 @@
 package lab5;
 
-public class Point extends Graph {
+public class Point implements Graph {
     protected double x, y;
     private String color = "none";
     @Override public void draw() {
