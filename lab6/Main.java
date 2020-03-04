@@ -44,8 +44,19 @@ public class Main {
             
             sinReader.close();
             inputReader.close();
-        }
-        catch (IOException e) {
+
+            ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream("./lab6/sin2.dat"));
+            ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream("./lab6/sin2.dat"));
+            objectOutputStream.writeObject(sinValues);
+            Vector<Double> vector = new Vector<Double>();
+            vector = (Vector<Double>) objectInputStream.readObject();
+            System.out.println(vector);
+
+            objectOutputStream.close();
+            objectInputStream.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
     }
