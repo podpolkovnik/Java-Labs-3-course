@@ -23,7 +23,13 @@ public class Main {
         window.moveTo(40, 80);
 
         for (Movable object : movableObjects) {
-            swapXY(object);
+            try {
+                swapXY(object);
+            }
+            catch (NullPointerException ex) {
+                System.out.println ("Error while swapping coordinates.");
+                ex.printStackTrace();        
+            }
         }
     }
 }
