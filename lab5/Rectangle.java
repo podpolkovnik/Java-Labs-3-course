@@ -1,4 +1,4 @@
-package lab3;
+package lab5;
 
 public class Rectangle extends Point {
     @Override public void draw() {

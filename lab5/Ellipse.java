@@ -1,4 +1,4 @@
-package lab3;
+package lab5;
 
 public class Ellipse extends Circle {
     @Override public void draw() {

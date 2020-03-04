@@ -1,4 +1,4 @@
-package lab3;
+package lab5;
 
 public class Background extends Graph {
     private String color = "none";

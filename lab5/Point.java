@@ -1,4 +1,4 @@
-package lab3;
+package lab5;
 
 public class Point extends Graph {
     protected double x, y;

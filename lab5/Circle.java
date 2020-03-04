@@ -1,4 +1,4 @@
-package lab3;
+package lab5;
 
 public class Circle extends Point {
     @Override public void draw() {
