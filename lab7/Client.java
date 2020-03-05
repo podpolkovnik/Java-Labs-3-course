@@ -9,12 +9,6 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 
 public class Client {
-
-    /**
-     * 
-     * @param args
-     * @throws InterruptedException
-     */
     public static void main(String[] args) throws InterruptedException {
 
 // запускаем подключение сокета по известным координатам и нициализируем приём сообщений с консоли клиента      
