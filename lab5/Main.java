@@ -22,6 +22,7 @@ public class Main {
         movableObjects.add(window);
         window.moveTo(40, 80);
 
+
         for (Movable object : movableObjects) {
             try {
                 swapXY(object);
