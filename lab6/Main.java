@@ -1,7 +1,6 @@
 package lab6;
 
 import java.io.*;
-import java.util.Random;
 import java.util.Vector;
 
 public class Main {
@@ -9,16 +8,11 @@ public class Main {
         File sin = new File("./lab6/sin.txt");
         File input = new File("./lab6/input.txt");
         sin.createNewFile();
-        input.createNewFile();
-        Random rand = new Random();
         PrintWriter sinWriter = new PrintWriter(sin);
-        PrintWriter inputWriter = new PrintWriter(input);
         for (int i = 0; i < 361; ++i) {
             sinWriter.println(Math.sin(i));
         }
-        inputWriter.println(rand.nextInt(360));
         sinWriter.close();
-        inputWriter.close();
         BufferedReader sinReader = new BufferedReader(new FileReader(sin));
         BufferedReader inputReader = new BufferedReader(new FileReader(input));
 
