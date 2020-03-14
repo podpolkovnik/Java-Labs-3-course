@@ -1,4 +1,4 @@
-package LabPackets.ru.novsu.povt.vpg.graphics;
+package LabPackets.ru.novsu.povt.lea.graphics;
 
 public class Point extends Graph {
     protected double x, y;

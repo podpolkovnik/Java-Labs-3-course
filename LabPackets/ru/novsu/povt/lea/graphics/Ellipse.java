@@ -1,4 +1,4 @@
-package LabPackets.ru.novsu.povt.vpg.graphics;
+package LabPackets.ru.novsu.povt.lea.graphics;
 
 public class Ellipse extends Circle {
     @Override public void draw() {

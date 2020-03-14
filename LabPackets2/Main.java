@@ -1,6 +1,6 @@
 package LabPackets2;
 
-import LabPackets.ru.novsu.povt.vpg.graphics.*;
+import LabPackets.ru.novsu.povt.lea.graphics.*;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package LabPackets.ru.novsu.povt.vpg.graphics;
+package LabPackets.ru.novsu.povt.lea.graphics;
 
 public class Rectangle extends Point {
     @Override public void draw() {
